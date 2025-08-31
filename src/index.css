@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+@layer base {
+  body {
+    @apply bg-black font-body text-white;
+  }
+  .heading{
+    @apply text-gold font-heading
+  }
+  .subtext{
+    @apply text-gray font-body
+  }
+}
+
+@theme {
+  --color-black: #1A1A1A;
+  --color-gold: #E6B400;
+  --color-green: #00B894;
+  --color-gray: #CCCCCC;
+  --color-white: #F5F5F5;
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Lato", sans-serif;
+  --font-oswald:"Oswald", sans-serif;
+}
+
+
+:root {
+  --color-image: linear-gradient(
+    252deg,
+    #be811a 24.5%,
+    #bf8727 28.3%,
+    #edca7e 49.64%,
+    #f4d48d 54.88%,
+    #f4d081 59.74%,
+    #f3b62e 76.77%
+  );
+}
