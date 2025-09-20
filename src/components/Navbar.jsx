@@ -14,12 +14,16 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-black text-white shadow-lg fixed top-0 left-0 w-full z-50">
+    <nav className="bg-black/90 text-white backdrop-blur-md shadow-md fixed top-0 left-0 w-full z-50">
       <div className="container mx-auto flex items-center justify-between p-4">
         
         {/* Logo */}
-        <a href="/" className="text-2xl font-bold text-brand-gold">
-          M Global
+        <a to="/" className="w-11 h-11 cursor-pointer">
+          <img
+            src={`${import.meta.env.BASE_URL}logo.png`}
+            className="w-full h-full rounded"
+            alt="Agritech Solutions"
+          />
         </a>
 
         {/* Desktop Menu */}

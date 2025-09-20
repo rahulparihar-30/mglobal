@@ -8,7 +8,13 @@ const Footer = () => {
         
         {/* Logo + About */}
         <div>
-          <h2 className="text-2xl font-bold text-brand-gold">M Global</h2>
+          <a to="/" className="w-11 h-11 cursor-pointer">
+          <img
+            src={`${import.meta.env.BASE_URL}logo.png`}
+            className="w-15 h-15 rounded"
+            alt="Agritech Solutions"
+          />
+        </a>
           <p className="mt-4 text-sm text-gray-400">
             Empowering traders worldwide with real-time forex insights, 
             financial advisory, and smart investment solutions.
