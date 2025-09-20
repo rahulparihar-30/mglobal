@@ -10,7 +10,7 @@ const Footer = () => {
         <div>
           <a to="/" className="w-11 h-11 cursor-pointer">
           <img
-            src={`${import.meta.env.BASE_URL}logo.png`}
+            src={`/logo.png`}
             className="w-15 h-15 rounded"
             alt="Agritech Solutions"
           />

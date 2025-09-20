@@ -45,7 +45,7 @@ const Features = () => {
             {/* Content */}
             <div className="relative z-10 flex flex-col md:flex-row-reverse md:justify-center md:items-center gap-5">
               <img
-                src={`/assets/${feature.image}`}
+                src={`/${feature.image}`}
                 alt={feature.title}
                 className="w-20 md:w-40 drop-shadow-lg"
               />
