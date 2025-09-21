@@ -5,11 +5,12 @@ import Features from './components/Features';
 import Hero from './components/Hero';
 import Footer from "./components/Footer"
 import Contact from './components/Contact';
-
+import UnderConstruction from './components/UnderConstruction';
 const App = () => {
     return (
         <div>
             <Navbar/>
+            <UnderConstruction/>
             <Hero/>
             <About/>
             <Features/>
